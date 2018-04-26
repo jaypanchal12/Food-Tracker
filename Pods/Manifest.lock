@@ -1,0 +1,21 @@
+PODS:
+  - EMAccordionTableViewController (0.5.5)
+  - ParallaxHeader (2.0.0)
+  - SnapKit (4.0.0)
+  - TTGTagCollectionView (1.6.1)
+
+DEPENDENCIES:
+  - EMAccordionTableViewController (~> 0.5)
+  - ParallaxHeader (~> 2.0.0)
+  - SnapKit (~> 4.0.0)
+  - TTGTagCollectionView
+
+SPEC CHECKSUMS:
+  EMAccordionTableViewController: c927c4a87460e73e237b39abba100a06d6b2c1d5
+  ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  TTGTagCollectionView: 828087136810b786ce8c30c89acf3877cccb0383
+
+PODFILE CHECKSUM: 7803dbb428d937262f336fafd6c552cddc2f3d3b
+
+COCOAPODS: 1.2.1

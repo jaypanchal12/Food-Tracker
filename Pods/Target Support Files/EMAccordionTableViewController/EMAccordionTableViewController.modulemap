@@ -1,0 +1,6 @@
+framework module EMAccordionTableViewController {
+  umbrella header "EMAccordionTableViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006DBF2599DD643A8861337322CEA4F9 /* EMAccordionTableParallaxHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 594376D5C0514034047BB2E6D0AEFD0C /* EMAccordionTableParallaxHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01B27FC9177EE975C7A01F452ECBB6DC /* ParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6470F738F47AA452B1D059CC65EF78E /* ParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		024066FCC1AD8011ABD889C24DBFE093 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32073DA81E4FBD9BBCD1D3F637AF8ADA /* ConstraintLayoutSupport.swift */; };
+		06D57843FA94742096D0970E60ACE215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		09453DEA9B67144EFA76563D83DCFA89 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A58878C6AFE1736888BA2CDEC1E3F /* ConstraintDescription.swift */; };
+		0D1E285CBF5D00506A60070A71F8982E /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC99A5F84C49D240150AF0FF1A712E45 /* ConstraintMaker.swift */; };
+		0D56953830293FE544FD9FD883910EED /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EED42E4D04BF45C2739F9868AA3905 /* ConstraintMakerExtendable.swift */; };
+		0E49FA66D2BCA25EBE83B0282DAA9F7E /* EMAccordionSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C4A2D4636B3805DD2FEC4C77982576 /* EMAccordionSection.m */; };
+		0FADB898DE00224562E48A0E24A7B701 /* ParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D5C1FA65FDBBD4DEA194A03EC54E9E /* ParallaxHeader-dummy.m */; };
+		10E15C91397E26E225017E3AD0156295 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
+		17FFFFB3DFD3D36679B897AFD3F531B1 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7183A42DB8E3361CCB93F79E46B4E /* UIScrollView+ParallaxHeader.swift */; };
+		21E8FFB96C036053A2C82FF57FF32F1B /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C3B63AA20DBF308E90D1CE71575CE /* ConstraintMakerEditable.swift */; };
+		24FC58D7BFA85B070AFAD274717755D7 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34985E6E004B2FC47895FF2048EDC988 /* LayoutConstraint.swift */; };
+		25170FFC98C824BC6052E2EE08FCCC97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		27490E28A9830B5779F82B56E6CBAFB2 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = F31B5EDEBE5D45EBA6C9D9EB4B97AC9E /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0AE610D5105B1D595036DBA2314723 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8913ADF3E2FBE233DBC9326CED68ABE /* ConstraintConstantTarget.swift */; };
+		2F0E65F1D23237461A07F43793503C86 /* EMAccordionTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C691E86ECB4F9F8FC7898EE26F0C01F /* EMAccordionTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3364B0D972D691DAF038A0B31443B514 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EB4F8EDC9ECF77640E7766C8735210 /* SnapKit-dummy.m */; };
+		3A7D31AFEEC0411C699CA745B3EAF928 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C42E8EC09F612906C258944A67CAAB8 /* ConstraintViewDSL.swift */; };
+		3A8141B4DE655620F052F96971ED258F /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502888E250EBCA00132739B729C35CD5 /* ConstraintMakerPriortizable.swift */; };
+		3CC00ABF6FCE66844F760E0BDBE03B3E /* EMAccordionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725EA24265A729251C3F6A1CF5E6D08B /* EMAccordionTableViewController.m */; };
+		4325232496E37B6287A5303AA85F661B /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C25C0739D89DF6A71590802B735F6 /* UILayoutSupport+Extensions.swift */; };
+		480A61B94B30342ADD75FB328579DE1C /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038777FD5B706EE7F0417C168419D3AC /* ConstraintLayoutGuide.swift */; };
+		49ACADE3F864FAC82C30EA915E27AD7F /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81767924F26812BE8C1F7073E8996D2F /* Typealiases.swift */; };
+		52F0BC4DF17FC762DCA48106FD5B6B41 /* EMAccordionTableParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541B47F71C0F84A853CDDD51BA891A6 /* EMAccordionTableParallaxHeaderView.m */; };
+		53F37FE0146917CDAF89D8D1826F7775 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAC7C6119E328C5610E4E225C484DE1 /* Constraint.swift */; };
+		557A715C6F5F07F3862290424FC435E0 /* EMAccordionTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE42B3833CE5CCFFA40DD7682E1CDAC /* EMAccordionTableViewController-dummy.m */; };
+		5740CD190C134921D8781D026C52BB4D /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7BA7F2F78CB21FB319BC508729179 /* ConstraintPriority.swift */; };
+		5AE343EA73A9E4D6312F99B4BAAA5EC9 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F3CE3D0C6C7D52BFF8213DE3F04476 /* UIImage+ImageEffects.m */; };
+		5F186F65D3F3CCC05D5F03427CEB42BF /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4F6F9CB7491D364760C4B16D4B4E8 /* ConstraintAttributes.swift */; };
+		63A6F505E1AF9D9B47C5798890425C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		677F77D6EEEA10639768AA1FB5ED7C84 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32455F6791CBD506B2D851EDEE6A25 /* ParallaxHeaderMode.swift */; };
+		6EBDE92D94DFA69DD15E90C4551FF766 /* TTGTextTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF1DCA265EDECFE1F583F1F1BBD7B45 /* TTGTextTagCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE21FAFE0C33106097FD41CEBA43CC9 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05C78F3EAFDFFDB41ACA283D3EB89 /* ConstraintMakerFinalizable.swift */; };
+		859A6CFDF56FAFDCD12FFD1023A39E8B /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411A60E2860E496A7F472300C3909D98 /* ConstraintLayoutGuide+Extensions.swift */; };
+		85C854EB544B5CB0A73E020E3F291A3B /* TTGTagCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2E136CCAD5D49C87C4542C3CF9C186 /* TTGTagCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87BBE83F5D9682B885F24FF9086D20FC /* EMAccordionSection.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B6F10FD9C2B7AD6CEF6F098C913C02 /* EMAccordionSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8854733AD9D09E4614C648DFF18B9431 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A0DD12A9681529F579871E64F5DDFE /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88FE3599B55B5187BFBC8A339CF3DDA7 /* TTGTagCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DC03F14E672C2A6CED463709291AF5 /* TTGTagCollectionView-dummy.m */; };
+		8CC6A3A1410E322BB37BADF5B3C3291A /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47442ACDB3963A29CA436E3D50AC51B9 /* Debugging.swift */; };
+		8ED48A8107DF167483F16C9408AB3E2A /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D98CC69AF2CB824D6A56C41AA0C966 /* ConstraintItem.swift */; };
+		92FEA9EB1931C72A88683F026A48944C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
+		9376A2AEA133A610EECF4969E9CB6313 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E968B3646E6E8C96950EA7347BEF8 /* ConstraintMultiplierTarget.swift */; };
+		9915FF0A7D7ECE1FD051D531E6FE463A /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805D50C97A7C67D05BBE838EFBE27E2C /* ConstraintRelatableTarget.swift */; };
+		99AD7B8FED6EA68A5DB4C5DE6D2B3E83 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609D3ECCE13A4B9053FD2CB6DD3A79A /* ConstraintLayoutGuideDSL.swift */; };
+		9BF0B42696D1A36AEFF1FF00D4795261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		AA1E69F6E472E0455E0BD445D647400C /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913D51CC0E2CF23D6A27C9E6BF5D77AF /* ConstraintOffsetTarget.swift */; };
+		ABCF8D5DCE54F120CD97C01ED184BA23 /* TTGTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0055A0218F20917E37BCE6D4013A5C80 /* TTGTagCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACCFAD7F76E654D0E4747040C51D802C /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F9B3E934F8B43DA8A55D304FB280B8 /* ConstraintDSL.swift */; };
+		B7CF17854B8AE60C7399C7DD854CABAA /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4308555BCCDE8AB2C6B644FB51ACE /* ConstraintInsetTarget.swift */; };
+		BABA36C263C6D915F748BE9FA63922FD /* TTGTextTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 870DE5B5E0EA0339D384F34D43E76466 /* TTGTextTagCollectionView.m */; };
+		BD2EE64A05B479A295A20DD96FDB5F32 /* TTGTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AD9F5D98E416DFF5069A72192CB8C9 /* TTGTagCollectionView.m */; };
+		BFBE5E457C202137C145A92DFDCB1625 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD9DA073A0AB2504723E6436F30A43 /* ConstraintInsets.swift */; };
+		C10614FC67DFE4F08C707591CD60C5D3 /* EMAccordionTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 085C516B17FF74BE202B6436A82F6B4D /* EMAccordionTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D3504A3F0442A6572237B30C70378E /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66EDA4B55F1AF85DB6FBF87C0CE4DA0 /* ConstraintConfig.swift */; };
+		C4E8E0B3F258462C4956CFCE7CEA7DE9 /* Pods-Food Tracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D344DE33E8E57181D87414D426CEF635 /* Pods-Food Tracker-dummy.m */; };
+		CC3CD9B39CB06C23565267A3873E503E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		CF2A830FEC6F0CEE8A36FE8D7F71BE1C /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5E3D93EE1E0DE866DB3648D7A1EFD9 /* ConstraintMakerRelatable.swift */; };
+		D17E667432A26A786DE09C0310A04041 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782F34D99939000E44C52863BB2FA4D0 /* ParallaxHeader.swift */; };
+		D1D2D9EDE53B04FD4BBEE136F24AF247 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6978FFF168985EEA8B2BDF00D98AFA83 /* LayoutConstraintItem.swift */; };
+		D5AF10A0CA4153B3D7C52D0DC09BE813 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CCE1C8AB0A1F093C8E2419D97AC65 /* ConstraintView.swift */; };
+		E146997871B62241C28C020EE26CFC2F /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE86BD318E2C9D841C17C53BA86493 /* ConstraintLayoutSupportDSL.swift */; };
+		E43A68C9D3B8B2C11371809F8AB2D2D7 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EE8368966E1ACFFC8345E40AE76F /* ConstraintView+Extensions.swift */; };
+		F082BCC892372A8608657316BA380EDA /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF3C5002342BDDDAF2626CD71DBA22 /* ConstraintPriorityTarget.swift */; };
+		F79D6102A6D46DD59B9140EE5470EA10 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95030893D9EE326546D4F547E17599BD /* ConstraintRelation.swift */; };
+		FAD574CC3E6EEF768F7A531FA5AB9DAA /* Pods-Food Tracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2F8E60EA6D3A06EBF97AFDC6C3EB34 /* Pods-Food Tracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0592DA4A0BFBD7B088A843DAB61E33D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F06C59DE6A433C4FFBBA0FE7A0C0AC;
+			remoteInfo = TTGTagCollectionView;
+		};
+		4B5FB00E8DBE0225F681A935552C6439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDB3663CA1829D496180537FC288864;
+			remoteInfo = EMAccordionTableViewController;
+		};
+		B408AA81D74604D17C73BFE4753A5168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E968D8749419480A8CFF9171F6707D2C;
+			remoteInfo = SnapKit;
+		};
+		E6922384DDF9298EE1DD1B0F3E56FB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EADC98135BDFF218FA8EEA855120208;
+			remoteInfo = ParallaxHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0055A0218F20917E37BCE6D4013A5C80 /* TTGTagCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTagCollectionView.h; path = TTGTagCollectionView/Classes/TTGTagCollectionView.h; sourceTree = "<group>"; };
+		02327D152D3B88EE4994DC9EE454C6C1 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		038777FD5B706EE7F0417C168419D3AC /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		03F3CE3D0C6C7D52BFF8213DE3F04476 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "EMAccordionTable/UIImage+ImageEffects/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		085C516B17FF74BE202B6436A82F6B4D /* EMAccordionTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAccordionTableViewController-umbrella.h"; sourceTree = "<group>"; };
+		0AEAA01917C81E88B2E4F2C88CDF7E4D /* Pods-Food Tracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Food Tracker-resources.sh"; sourceTree = "<group>"; };
+		0CF694B203F6E3996247B784157EE7AF /* TTGTagCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTGTagCollectionView.modulemap; sourceTree = "<group>"; };
+		0ED7BA7F2F78CB21FB319BC508729179 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1E6C2421F19CC03E6B90CB4FA103AC93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205C3B63AA20DBF308E90D1CE71575CE /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		26AD9F5D98E416DFF5069A72192CB8C9 /* TTGTagCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTagCollectionView.m; path = TTGTagCollectionView/Classes/TTGTagCollectionView.m; sourceTree = "<group>"; };
+		27F4F6F9CB7491D364760C4B16D4B4E8 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		2A2F8E60EA6D3A06EBF97AFDC6C3EB34 /* Pods-Food Tracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Food Tracker-umbrella.h"; sourceTree = "<group>"; };
+		2B2E136CCAD5D49C87C4542C3CF9C186 /* TTGTagCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGTagCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		32073DA81E4FBD9BBCD1D3F637AF8ADA /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		34985E6E004B2FC47895FF2048EDC988 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		385DDAEEFCC80A06A1305CDC9FC9EE6E /* EMAccordionTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EMAccordionTableViewController.framework; path = EMAccordionTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E7B0FF9F672E4D96D92BA5384D7EF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF8EE8368966E1ACFFC8345E40AE76F /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		3D32455F6791CBD506B2D851EDEE6A25 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeaderMode.swift; path = ParallaxHeader/ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		411A60E2860E496A7F472300C3909D98 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		47442ACDB3963A29CA436E3D50AC51B9 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		4C2104F37AE72E8F1C841F916ED41342 /* ParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParallaxHeader.framework; path = ParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		502888E250EBCA00132739B729C35CD5 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		5446EEF62376F1528272D6CB479E0330 /* TTGTagCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGTagCollectionView.xcconfig; sourceTree = "<group>"; };
+		56FD9DA073A0AB2504723E6436F30A43 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		594376D5C0514034047BB2E6D0AEFD0C /* EMAccordionTableParallaxHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAccordionTableParallaxHeaderView.h; path = EMAccordionTable/EMAccordionTableParallaxHeaderView.h; sourceTree = "<group>"; };
+		5E4A58878C6AFE1736888BA2CDEC1E3F /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		606E5321CC67515F08E3831415BBAFFD /* Pods-Food Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		62EED42E4D04BF45C2739F9868AA3905 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		6541B47F71C0F84A853CDDD51BA891A6 /* EMAccordionTableParallaxHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMAccordionTableParallaxHeaderView.m; path = EMAccordionTable/EMAccordionTableParallaxHeaderView.m; sourceTree = "<group>"; };
+		6609D3ECCE13A4B9053FD2CB6DD3A79A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		6978FFF168985EEA8B2BDF00D98AFA83 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		6C42E8EC09F612906C258944A67CAAB8 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		725EA24265A729251C3F6A1CF5E6D08B /* EMAccordionTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMAccordionTableViewController.m; path = EMAccordionTable/EMAccordionTableViewController.m; sourceTree = "<group>"; };
+		73C4A2D4636B3805DD2FEC4C77982576 /* EMAccordionSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMAccordionSection.m; path = EMAccordionTable/EMAccordionSection.m; sourceTree = "<group>"; };
+		73D5C1FA65FDBBD4DEA194A03EC54E9E /* ParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		77B7183A42DB8E3361CCB93F79E46B4E /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ParallaxHeader.swift"; path = "ParallaxHeader/UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		782F34D99939000E44C52863BB2FA4D0 /* ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeader.swift; path = ParallaxHeader/ParallaxHeader.swift; sourceTree = "<group>"; };
+		7AAC7C6119E328C5610E4E225C484DE1 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		7CE42B3833CE5CCFFA40DD7682E1CDAC /* EMAccordionTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMAccordionTableViewController-dummy.m"; sourceTree = "<group>"; };
+		7E008BF3B194748340F56A403102CE7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805D50C97A7C67D05BBE838EFBE27E2C /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		81767924F26812BE8C1F7073E8996D2F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		823F0CDF3E836C5B8397AEC3F8F5A9D7 /* ParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		870DE5B5E0EA0339D384F34D43E76466 /* TTGTextTagCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTagCollectionView.m; path = TTGTagCollectionView/Classes/TTGTextTagCollectionView.m; sourceTree = "<group>"; };
+		8949E478635F1652091AAE0B6910A4B7 /* EMAccordionTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMAccordionTableViewController-prefix.pch"; sourceTree = "<group>"; };
+		8A021B30C115C0F8E08369188CD169BD /* ParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxHeader.xcconfig; sourceTree = "<group>"; };
+		8B96E7021A36C1F270A17859638C69DF /* Pods-Food Tracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Tracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D1C25C0739D89DF6A71590802B735F6 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		8F5E3D93EE1E0DE866DB3648D7A1EFD9 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		913D51CC0E2CF23D6A27C9E6BF5D77AF /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		93A0DD12A9681529F579871E64F5DDFE /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F9B3E934F8B43DA8A55D304FB280B8 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		93FF3C5002342BDDDAF2626CD71DBA22 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		95030893D9EE326546D4F547E17599BD /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		97B4308555BCCDE8AB2C6B644FB51ACE /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		98DC03F14E672C2A6CED463709291AF5 /* TTGTagCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTGTagCollectionView-dummy.m"; sourceTree = "<group>"; };
+		9A1818126C51638F4CD7B2EB9EF03852 /* Pods-Food Tracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Food Tracker.modulemap"; sourceTree = "<group>"; };
+		9C691E86ECB4F9F8FC7898EE26F0C01F /* EMAccordionTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAccordionTableViewController.h; path = EMAccordionTable/EMAccordionTableViewController.h; sourceTree = "<group>"; };
+		A0D05C78F3EAFDFFDB41ACA283D3EB89 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		A5D98CC69AF2CB824D6A56C41AA0C966 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		ACD9584D8C94744CA7FDBA71E1510FA5 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		B0BF6D6BF4E316059E38AE748B8C5DB4 /* Pods-Food Tracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Food Tracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6D7825616BDC0FB4F658F321B91F9C5 /* EMAccordionTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EMAccordionTableViewController.modulemap; sourceTree = "<group>"; };
+		B9E7ABA875DA8D23856E0F0D54FEA2A5 /* Pods-Food Tracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Food Tracker-frameworks.sh"; sourceTree = "<group>"; };
+		BEBF4FFC439BF7DC99A140547EAEC7EF /* EMAccordionTableViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMAccordionTableViewController.xcconfig; sourceTree = "<group>"; };
+		C0EE86BD318E2C9D841C17C53BA86493 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		C6470F738F47AA452B1D059CC65EF78E /* ParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
+		C829A2772FF28D993FB9BB6D9954E268 /* TTGTagCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTGTagCollectionView.framework; path = TTGTagCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8913ADF3E2FBE233DBC9326CED68ABE /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		C8EB4F8EDC9ECF77640E7766C8735210 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		CA9CCE1C8AB0A1F093C8E2419D97AC65 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		CBF1DCA265EDECFE1F583F1F1BBD7B45 /* TTGTextTagCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTagCollectionView.h; path = TTGTagCollectionView/Classes/TTGTextTagCollectionView.h; sourceTree = "<group>"; };
+		CC91D4102D86AF789BC16E68865D4530 /* ParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ParallaxHeader.modulemap; sourceTree = "<group>"; };
+		D344DE33E8E57181D87414D426CEF635 /* Pods-Food Tracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Food Tracker-dummy.m"; sourceTree = "<group>"; };
+		DC0DC7A8EA312E80E6AE66E7F686EC4F /* Pods_Food_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Food_Tracker.framework; path = "Pods-Food Tracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E249480038DE30E874C11AB92A5E72C4 /* TTGTagCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGTagCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		E5E67C487770850B40DECA678A1936B9 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		E66EDA4B55F1AF85DB6FBF87C0CE4DA0 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		E970F31E25F31ED8AEA208F1BCDF46C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22EB83DD93C34D50801EA701140388F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31B5EDEBE5D45EBA6C9D9EB4B97AC9E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "EMAccordionTable/UIImage+ImageEffects/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		F42E968B3646E6E8C96950EA7347BEF8 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		F5B6F10FD9C2B7AD6CEF6F098C913C02 /* EMAccordionSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMAccordionSection.h; path = EMAccordionTable/EMAccordionSection.h; sourceTree = "<group>"; };
+		F72F9322AF33AEC0E4E829B20C1D1C7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95744646B367E214D588F9EF13F2C11 /* Pods-Food Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		FC99A5F84C49D240150AF0FF1A712E45 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36A14AD6AD7B078BDFAB7557C65A2F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D57843FA94742096D0970E60ACE215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C54B71C228E81C9E5C424C7C8725459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25170FFC98C824BC6052E2EE08FCCC97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C051E34A4E470465B77ED34478517C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3CD9B39CB06C23565267A3873E503E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58A9A7652B9887D085DCAF0379C5F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FEA9EB1931C72A88683F026A48944C /* CoreGraphics.framework in Frameworks */,
+				9BF0B42696D1A36AEFF1FF00D4795261 /* Foundation.framework in Frameworks */,
+				10E15C91397E26E225017E3AD0156295 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A38AF3227E90F401A590B2A33EE824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A6F505E1AF9D9B47C5798890425C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57EFDB9E9F22AD73FCEBE79E41D32583 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3878A6C324ADFF5A257E171DA9CD807 /* Pods-Food Tracker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */,
+				12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */,
+				5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BDDC96E10696012EF728256B44494E4 /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				782F34D99939000E44C52863BB2FA4D0 /* ParallaxHeader.swift */,
+				3D32455F6791CBD506B2D851EDEE6A25 /* ParallaxHeaderMode.swift */,
+				77B7183A42DB8E3361CCB93F79E46B4E /* UIScrollView+ParallaxHeader.swift */,
+				E5798C1F0EC87D1A387BF3D8708D81A9 /* Support Files */,
+			);
+			name = ParallaxHeader;
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				863D6BDF2140963BD01A5A6C0CA695D5 /* Pods */,
+				84568A0EBA855342C9DA3F947DF702AE /* Products */,
+				57EFDB9E9F22AD73FCEBE79E41D32583 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84568A0EBA855342C9DA3F947DF702AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385DDAEEFCC80A06A1305CDC9FC9EE6E /* EMAccordionTableViewController.framework */,
+				4C2104F37AE72E8F1C841F916ED41342 /* ParallaxHeader.framework */,
+				DC0DC7A8EA312E80E6AE66E7F686EC4F /* Pods_Food_Tracker.framework */,
+				F22EB83DD93C34D50801EA701140388F /* SnapKit.framework */,
+				C829A2772FF28D993FB9BB6D9954E268 /* TTGTagCollectionView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863D6BDF2140963BD01A5A6C0CA695D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8745089EB0EB1EE873C192BFD49BC5A /* EMAccordionTableViewController */,
+				6BDDC96E10696012EF728256B44494E4 /* ParallaxHeader */,
+				BCBE8822E4A7EE614C804F510F916684 /* SnapKit */,
+				E4CDDF899CEB043617B2EBE933476598 /* TTGTagCollectionView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8745089EB0EB1EE873C192BFD49BC5A /* EMAccordionTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5B6F10FD9C2B7AD6CEF6F098C913C02 /* EMAccordionSection.h */,
+				73C4A2D4636B3805DD2FEC4C77982576 /* EMAccordionSection.m */,
+				594376D5C0514034047BB2E6D0AEFD0C /* EMAccordionTableParallaxHeaderView.h */,
+				6541B47F71C0F84A853CDDD51BA891A6 /* EMAccordionTableParallaxHeaderView.m */,
+				9C691E86ECB4F9F8FC7898EE26F0C01F /* EMAccordionTableViewController.h */,
+				725EA24265A729251C3F6A1CF5E6D08B /* EMAccordionTableViewController.m */,
+				F31B5EDEBE5D45EBA6C9D9EB4B97AC9E /* UIImage+ImageEffects.h */,
+				03F3CE3D0C6C7D52BFF8213DE3F04476 /* UIImage+ImageEffects.m */,
+				EF2EE4EBD74C9D3FCF8568E2A6EA0125 /* Support Files */,
+			);
+			name = EMAccordionTableViewController;
+			path = EMAccordionTableViewController;
+			sourceTree = "<group>";
+		};
+		BCBE8822E4A7EE614C804F510F916684 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				7AAC7C6119E328C5610E4E225C484DE1 /* Constraint.swift */,
+				27F4F6F9CB7491D364760C4B16D4B4E8 /* ConstraintAttributes.swift */,
+				E66EDA4B55F1AF85DB6FBF87C0CE4DA0 /* ConstraintConfig.swift */,
+				C8913ADF3E2FBE233DBC9326CED68ABE /* ConstraintConstantTarget.swift */,
+				5E4A58878C6AFE1736888BA2CDEC1E3F /* ConstraintDescription.swift */,
+				93F9B3E934F8B43DA8A55D304FB280B8 /* ConstraintDSL.swift */,
+				56FD9DA073A0AB2504723E6436F30A43 /* ConstraintInsets.swift */,
+				97B4308555BCCDE8AB2C6B644FB51ACE /* ConstraintInsetTarget.swift */,
+				A5D98CC69AF2CB824D6A56C41AA0C966 /* ConstraintItem.swift */,
+				038777FD5B706EE7F0417C168419D3AC /* ConstraintLayoutGuide.swift */,
+				411A60E2860E496A7F472300C3909D98 /* ConstraintLayoutGuide+Extensions.swift */,
+				6609D3ECCE13A4B9053FD2CB6DD3A79A /* ConstraintLayoutGuideDSL.swift */,
+				32073DA81E4FBD9BBCD1D3F637AF8ADA /* ConstraintLayoutSupport.swift */,
+				C0EE86BD318E2C9D841C17C53BA86493 /* ConstraintLayoutSupportDSL.swift */,
+				FC99A5F84C49D240150AF0FF1A712E45 /* ConstraintMaker.swift */,
+				205C3B63AA20DBF308E90D1CE71575CE /* ConstraintMakerEditable.swift */,
+				62EED42E4D04BF45C2739F9868AA3905 /* ConstraintMakerExtendable.swift */,
+				A0D05C78F3EAFDFFDB41ACA283D3EB89 /* ConstraintMakerFinalizable.swift */,
+				502888E250EBCA00132739B729C35CD5 /* ConstraintMakerPriortizable.swift */,
+				8F5E3D93EE1E0DE866DB3648D7A1EFD9 /* ConstraintMakerRelatable.swift */,
+				F42E968B3646E6E8C96950EA7347BEF8 /* ConstraintMultiplierTarget.swift */,
+				913D51CC0E2CF23D6A27C9E6BF5D77AF /* ConstraintOffsetTarget.swift */,
+				0ED7BA7F2F78CB21FB319BC508729179 /* ConstraintPriority.swift */,
+				93FF3C5002342BDDDAF2626CD71DBA22 /* ConstraintPriorityTarget.swift */,
+				805D50C97A7C67D05BBE838EFBE27E2C /* ConstraintRelatableTarget.swift */,
+				95030893D9EE326546D4F547E17599BD /* ConstraintRelation.swift */,
+				CA9CCE1C8AB0A1F093C8E2419D97AC65 /* ConstraintView.swift */,
+				3AF8EE8368966E1ACFFC8345E40AE76F /* ConstraintView+Extensions.swift */,
+				6C42E8EC09F612906C258944A67CAAB8 /* ConstraintViewDSL.swift */,
+				47442ACDB3963A29CA436E3D50AC51B9 /* Debugging.swift */,
+				34985E6E004B2FC47895FF2048EDC988 /* LayoutConstraint.swift */,
+				6978FFF168985EEA8B2BDF00D98AFA83 /* LayoutConstraintItem.swift */,
+				81767924F26812BE8C1F7073E8996D2F /* Typealiases.swift */,
+				8D1C25C0739D89DF6A71590802B735F6 /* UILayoutSupport+Extensions.swift */,
+				E9B6051C5648BAFA35C6E50D1CE1F98F /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		C0432517EB89A96F5D75E45F749D2A68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E970F31E25F31ED8AEA208F1BCDF46C3 /* Info.plist */,
+				0CF694B203F6E3996247B784157EE7AF /* TTGTagCollectionView.modulemap */,
+				5446EEF62376F1528272D6CB479E0330 /* TTGTagCollectionView.xcconfig */,
+				98DC03F14E672C2A6CED463709291AF5 /* TTGTagCollectionView-dummy.m */,
+				E249480038DE30E874C11AB92A5E72C4 /* TTGTagCollectionView-prefix.pch */,
+				2B2E136CCAD5D49C87C4542C3CF9C186 /* TTGTagCollectionView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTGTagCollectionView";
+			sourceTree = "<group>";
+		};
+		E3878A6C324ADFF5A257E171DA9CD807 /* Pods-Food Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				1E6C2421F19CC03E6B90CB4FA103AC93 /* Info.plist */,
+				9A1818126C51638F4CD7B2EB9EF03852 /* Pods-Food Tracker.modulemap */,
+				B0BF6D6BF4E316059E38AE748B8C5DB4 /* Pods-Food Tracker-acknowledgements.markdown */,
+				8B96E7021A36C1F270A17859638C69DF /* Pods-Food Tracker-acknowledgements.plist */,
+				D344DE33E8E57181D87414D426CEF635 /* Pods-Food Tracker-dummy.m */,
+				B9E7ABA875DA8D23856E0F0D54FEA2A5 /* Pods-Food Tracker-frameworks.sh */,
+				0AEAA01917C81E88B2E4F2C88CDF7E4D /* Pods-Food Tracker-resources.sh */,
+				2A2F8E60EA6D3A06EBF97AFDC6C3EB34 /* Pods-Food Tracker-umbrella.h */,
+				F95744646B367E214D588F9EF13F2C11 /* Pods-Food Tracker.debug.xcconfig */,
+				606E5321CC67515F08E3831415BBAFFD /* Pods-Food Tracker.release.xcconfig */,
+			);
+			name = "Pods-Food Tracker";
+			path = "Target Support Files/Pods-Food Tracker";
+			sourceTree = "<group>";
+		};
+		E4CDDF899CEB043617B2EBE933476598 /* TTGTagCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0055A0218F20917E37BCE6D4013A5C80 /* TTGTagCollectionView.h */,
+				26AD9F5D98E416DFF5069A72192CB8C9 /* TTGTagCollectionView.m */,
+				CBF1DCA265EDECFE1F583F1F1BBD7B45 /* TTGTextTagCollectionView.h */,
+				870DE5B5E0EA0339D384F34D43E76466 /* TTGTextTagCollectionView.m */,
+				C0432517EB89A96F5D75E45F749D2A68 /* Support Files */,
+			);
+			name = TTGTagCollectionView;
+			path = TTGTagCollectionView;
+			sourceTree = "<group>";
+		};
+		E5798C1F0EC87D1A387BF3D8708D81A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E008BF3B194748340F56A403102CE7D /* Info.plist */,
+				CC91D4102D86AF789BC16E68865D4530 /* ParallaxHeader.modulemap */,
+				8A021B30C115C0F8E08369188CD169BD /* ParallaxHeader.xcconfig */,
+				73D5C1FA65FDBBD4DEA194A03EC54E9E /* ParallaxHeader-dummy.m */,
+				823F0CDF3E836C5B8397AEC3F8F5A9D7 /* ParallaxHeader-prefix.pch */,
+				C6470F738F47AA452B1D059CC65EF78E /* ParallaxHeader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ParallaxHeader";
+			sourceTree = "<group>";
+		};
+		E9B6051C5648BAFA35C6E50D1CE1F98F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E7B0FF9F672E4D96D92BA5384D7EF2 /* Info.plist */,
+				E5E67C487770850B40DECA678A1936B9 /* SnapKit.modulemap */,
+				02327D152D3B88EE4994DC9EE454C6C1 /* SnapKit.xcconfig */,
+				C8EB4F8EDC9ECF77640E7766C8735210 /* SnapKit-dummy.m */,
+				ACD9584D8C94744CA7FDBA71E1510FA5 /* SnapKit-prefix.pch */,
+				93A0DD12A9681529F579871E64F5DDFE /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		EF2EE4EBD74C9D3FCF8568E2A6EA0125 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D7825616BDC0FB4F658F321B91F9C5 /* EMAccordionTableViewController.modulemap */,
+				BEBF4FFC439BF7DC99A140547EAEC7EF /* EMAccordionTableViewController.xcconfig */,
+				7CE42B3833CE5CCFFA40DD7682E1CDAC /* EMAccordionTableViewController-dummy.m */,
+				8949E478635F1652091AAE0B6910A4B7 /* EMAccordionTableViewController-prefix.pch */,
+				085C516B17FF74BE202B6436A82F6B4D /* EMAccordionTableViewController-umbrella.h */,
+				F72F9322AF33AEC0E4E829B20C1D1C7E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EMAccordionTableViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FA605FFF53AE8E277089DB533EFE0EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B27FC9177EE975C7A01F452ECBB6DC /* ParallaxHeader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B920DF897B0CDB3BCBA4B7471A5F2448 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C854EB544B5CB0A73E020E3F291A3B /* TTGTagCollectionView-umbrella.h in Headers */,
+				ABCF8D5DCE54F120CD97C01ED184BA23 /* TTGTagCollectionView.h in Headers */,
+				6EBDE92D94DFA69DD15E90C4551FF766 /* TTGTextTagCollectionView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6E5CD3E45DB8BA239C4954F1B5713B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD574CC3E6EEF768F7A531FA5AB9DAA /* Pods-Food Tracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70CE2B2FA53C299453E8F199E3BAE8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8854733AD9D09E4614C648DFF18B9431 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB5B7E7FBFDB00E1D34BFC29FA6462F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BBE83F5D9682B885F24FF9086D20FC /* EMAccordionSection.h in Headers */,
+				006DBF2599DD643A8861337322CEA4F9 /* EMAccordionTableParallaxHeaderView.h in Headers */,
+				C10614FC67DFE4F08C707591CD60C5D3 /* EMAccordionTableViewController-umbrella.h in Headers */,
+				2F0E65F1D23237461A07F43793503C86 /* EMAccordionTableViewController.h in Headers */,
+				27490E28A9830B5779F82B56E6CBAFB2 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3595877C8D4131A0FCEF793FFA5F800C /* Build configuration list for PBXNativeTarget "ParallaxHeader" */;
+			buildPhases = (
+				6F10C260EF59BE3C7FE5AFEC986E0DF9 /* Sources */,
+				36A14AD6AD7B078BDFAB7557C65A2F47 /* Frameworks */,
+				9FA605FFF53AE8E277089DB533EFE0EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxHeader;
+			productName = ParallaxHeader;
+			productReference = 4C2104F37AE72E8F1C841F916ED41342 /* ParallaxHeader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67F06C59DE6A433C4FFBBA0FE7A0C0AC /* TTGTagCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021D4FBFA635554118554B7C54847922 /* Build configuration list for PBXNativeTarget "TTGTagCollectionView" */;
+			buildPhases = (
+				E070EDC7D128A2C676E23320C3C8208D /* Sources */,
+				E6A38AF3227E90F401A590B2A33EE824 /* Frameworks */,
+				B920DF897B0CDB3BCBA4B7471A5F2448 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTGTagCollectionView;
+			productName = TTGTagCollectionView;
+			productReference = C829A2772FF28D993FB9BB6D9954E268 /* TTGTagCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CDB3663CA1829D496180537FC288864 /* EMAccordionTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25B77BBC4E120CB6EFBCFA067143241 /* Build configuration list for PBXNativeTarget "EMAccordionTableViewController" */;
+			buildPhases = (
+				7FD2DF2A1AE58B4F0BCA1ACD3C810276 /* Sources */,
+				B58A9A7652B9887D085DCAF0379C5F22 /* Frameworks */,
+				FEB5B7E7FBFDB00E1D34BFC29FA6462F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMAccordionTableViewController;
+			productName = EMAccordionTableViewController;
+			productReference = 385DDAEEFCC80A06A1305CDC9FC9EE6E /* EMAccordionTableViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADF7ACA3776F235BB80D4ADF0C4C9BCC /* Pods-Food Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AA68C52F505143CE1D8E42161E5689 /* Build configuration list for PBXNativeTarget "Pods-Food Tracker" */;
+			buildPhases = (
+				AE4099034DCAD246E77F1B47C6745E81 /* Sources */,
+				4C54B71C228E81C9E5C424C7C8725459 /* Frameworks */,
+				BE6E5CD3E45DB8BA239C4954F1B5713B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF38BA919338AF5E1403032402F1D30 /* PBXTargetDependency */,
+				3C64D22DAC4F93BA73F94FCB4F8351DF /* PBXTargetDependency */,
+				AE787A1018DE6C646A791F7A5EFB7040 /* PBXTargetDependency */,
+				1C1BFD50BA9D8647AD36EB42A051FD37 /* PBXTargetDependency */,
+			);
+			name = "Pods-Food Tracker";
+			productName = "Pods-Food Tracker";
+			productReference = DC0DC7A8EA312E80E6AE66E7F686EC4F /* Pods_Food_Tracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E968D8749419480A8CFF9171F6707D2C /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F41A570598AD23946F1571D46805D67 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				E8C853E393683F647847D9DDC0630F5D /* Sources */,
+				9C051E34A4E470465B77ED34478517C2 /* Frameworks */,
+				C70CE2B2FA53C299453E8F199E3BAE8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = F22EB83DD93C34D50801EA701140388F /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 84568A0EBA855342C9DA3F947DF702AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CDB3663CA1829D496180537FC288864 /* EMAccordionTableViewController */,
+				0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */,
+				ADF7ACA3776F235BB80D4ADF0C4C9BCC /* Pods-Food Tracker */,
+				E968D8749419480A8CFF9171F6707D2C /* SnapKit */,
+				67F06C59DE6A433C4FFBBA0FE7A0C0AC /* TTGTagCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F10C260EF59BE3C7FE5AFEC986E0DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FADB898DE00224562E48A0E24A7B701 /* ParallaxHeader-dummy.m in Sources */,
+				D17E667432A26A786DE09C0310A04041 /* ParallaxHeader.swift in Sources */,
+				677F77D6EEEA10639768AA1FB5ED7C84 /* ParallaxHeaderMode.swift in Sources */,
+				17FFFFB3DFD3D36679B897AFD3F531B1 /* UIScrollView+ParallaxHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD2DF2A1AE58B4F0BCA1ACD3C810276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E49FA66D2BCA25EBE83B0282DAA9F7E /* EMAccordionSection.m in Sources */,
+				52F0BC4DF17FC762DCA48106FD5B6B41 /* EMAccordionTableParallaxHeaderView.m in Sources */,
+				557A715C6F5F07F3862290424FC435E0 /* EMAccordionTableViewController-dummy.m in Sources */,
+				3CC00ABF6FCE66844F760E0BDBE03B3E /* EMAccordionTableViewController.m in Sources */,
+				5AE343EA73A9E4D6312F99B4BAAA5EC9 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4099034DCAD246E77F1B47C6745E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E8E0B3F258462C4956CFCE7CEA7DE9 /* Pods-Food Tracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E070EDC7D128A2C676E23320C3C8208D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FE3599B55B5187BFBC8A339CF3DDA7 /* TTGTagCollectionView-dummy.m in Sources */,
+				BD2EE64A05B479A295A20DD96FDB5F32 /* TTGTagCollectionView.m in Sources */,
+				BABA36C263C6D915F748BE9FA63922FD /* TTGTextTagCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C853E393683F647847D9DDC0630F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F37FE0146917CDAF89D8D1826F7775 /* Constraint.swift in Sources */,
+				5F186F65D3F3CCC05D5F03427CEB42BF /* ConstraintAttributes.swift in Sources */,
+				C4D3504A3F0442A6572237B30C70378E /* ConstraintConfig.swift in Sources */,
+				2F0AE610D5105B1D595036DBA2314723 /* ConstraintConstantTarget.swift in Sources */,
+				09453DEA9B67144EFA76563D83DCFA89 /* ConstraintDescription.swift in Sources */,
+				ACCFAD7F76E654D0E4747040C51D802C /* ConstraintDSL.swift in Sources */,
+				BFBE5E457C202137C145A92DFDCB1625 /* ConstraintInsets.swift in Sources */,
+				B7CF17854B8AE60C7399C7DD854CABAA /* ConstraintInsetTarget.swift in Sources */,
+				8ED48A8107DF167483F16C9408AB3E2A /* ConstraintItem.swift in Sources */,
+				859A6CFDF56FAFDCD12FFD1023A39E8B /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				480A61B94B30342ADD75FB328579DE1C /* ConstraintLayoutGuide.swift in Sources */,
+				99AD7B8FED6EA68A5DB4C5DE6D2B3E83 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				024066FCC1AD8011ABD889C24DBFE093 /* ConstraintLayoutSupport.swift in Sources */,
+				E146997871B62241C28C020EE26CFC2F /* ConstraintLayoutSupportDSL.swift in Sources */,
+				0D1E285CBF5D00506A60070A71F8982E /* ConstraintMaker.swift in Sources */,
+				21E8FFB96C036053A2C82FF57FF32F1B /* ConstraintMakerEditable.swift in Sources */,
+				0D56953830293FE544FD9FD883910EED /* ConstraintMakerExtendable.swift in Sources */,
+				7BE21FAFE0C33106097FD41CEBA43CC9 /* ConstraintMakerFinalizable.swift in Sources */,
+				3A8141B4DE655620F052F96971ED258F /* ConstraintMakerPriortizable.swift in Sources */,
+				CF2A830FEC6F0CEE8A36FE8D7F71BE1C /* ConstraintMakerRelatable.swift in Sources */,
+				9376A2AEA133A610EECF4969E9CB6313 /* ConstraintMultiplierTarget.swift in Sources */,
+				AA1E69F6E472E0455E0BD445D647400C /* ConstraintOffsetTarget.swift in Sources */,
+				5740CD190C134921D8781D026C52BB4D /* ConstraintPriority.swift in Sources */,
+				F082BCC892372A8608657316BA380EDA /* ConstraintPriorityTarget.swift in Sources */,
+				9915FF0A7D7ECE1FD051D531E6FE463A /* ConstraintRelatableTarget.swift in Sources */,
+				F79D6102A6D46DD59B9140EE5470EA10 /* ConstraintRelation.swift in Sources */,
+				E43A68C9D3B8B2C11371809F8AB2D2D7 /* ConstraintView+Extensions.swift in Sources */,
+				D5AF10A0CA4153B3D7C52D0DC09BE813 /* ConstraintView.swift in Sources */,
+				3A7D31AFEEC0411C699CA745B3EAF928 /* ConstraintViewDSL.swift in Sources */,
+				8CC6A3A1410E322BB37BADF5B3C3291A /* Debugging.swift in Sources */,
+				24FC58D7BFA85B070AFAD274717755D7 /* LayoutConstraint.swift in Sources */,
+				D1D2D9EDE53B04FD4BBEE136F24AF247 /* LayoutConstraintItem.swift in Sources */,
+				3364B0D972D691DAF038A0B31443B514 /* SnapKit-dummy.m in Sources */,
+				49ACADE3F864FAC82C30EA915E27AD7F /* Typealiases.swift in Sources */,
+				4325232496E37B6287A5303AA85F661B /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C1BFD50BA9D8647AD36EB42A051FD37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGTagCollectionView;
+			target = 67F06C59DE6A433C4FFBBA0FE7A0C0AC /* TTGTagCollectionView */;
+			targetProxy = 0592DA4A0BFBD7B088A843DAB61E33D0 /* PBXContainerItemProxy */;
+		};
+		3C64D22DAC4F93BA73F94FCB4F8351DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxHeader;
+			target = 0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */;
+			targetProxy = E6922384DDF9298EE1DD1B0F3E56FB3C /* PBXContainerItemProxy */;
+		};
+		AE787A1018DE6C646A791F7A5EFB7040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = E968D8749419480A8CFF9171F6707D2C /* SnapKit */;
+			targetProxy = B408AA81D74604D17C73BFE4753A5168 /* PBXContainerItemProxy */;
+		};
+		FCF38BA919338AF5E1403032402F1D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EMAccordionTableViewController;
+			target = 8CDB3663CA1829D496180537FC288864 /* EMAccordionTableViewController */;
+			targetProxy = 4B5FB00E8DBE0225F681A935552C6439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B762DCF2F0E3BC23A737160EEF9E043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606E5321CC67515F08E3831415BBAFFD /* Pods-Food Tracker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Tracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Tracker/Pods-Food Tracker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Food_Tracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		263DE7332901469C89F755B31A38CDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02327D152D3B88EE4994DC9EE454C6C1 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5ED22D3ADD93872A31371C60973C41BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A021B30C115C0F8E08369188CD169BD /* ParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADC3761844C0B377927A89E764E4CFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBF4FFC439BF7DC99A140547EAEC7EF /* EMAccordionTableViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EMAccordionTableViewController/EMAccordionTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EMAccordionTableViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EMAccordionTableViewController/EMAccordionTableViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EMAccordionTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE813DBD7CA5DF070B9BA15B68379D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBF4FFC439BF7DC99A140547EAEC7EF /* EMAccordionTableViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EMAccordionTableViewController/EMAccordionTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EMAccordionTableViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EMAccordionTableViewController/EMAccordionTableViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EMAccordionTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0F90B58A876CA2E7DBEC4142C0F46FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5446EEF62376F1528272D6CB479E0330 /* TTGTagCollectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGTagCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTGTagCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1923BACF404D70671CF444327296FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5446EEF62376F1528272D6CB479E0330 /* TTGTagCollectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGTagCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TTGTagCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E058F083B5BA68BB036EE27FCFA74607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F95744646B367E214D588F9EF13F2C11 /* Pods-Food Tracker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Tracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Tracker/Pods-Food Tracker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Food_Tracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCE442DE53FC116E58D380FE04BDBEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02327D152D3B88EE4994DC9EE454C6C1 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FECEED41127596D1E697FE212DDED548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A021B30C115C0F8E08369188CD169BD /* ParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021D4FBFA635554118554B7C54847922 /* Build configuration list for PBXNativeTarget "TTGTagCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1923BACF404D70671CF444327296FD9 /* Debug */,
+				C0F90B58A876CA2E7DBEC4142C0F46FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3595877C8D4131A0FCEF793FFA5F800C /* Build configuration list for PBXNativeTarget "ParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED22D3ADD93872A31371C60973C41BC /* Debug */,
+				FECEED41127596D1E697FE212DDED548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F41A570598AD23946F1571D46805D67 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263DE7332901469C89F755B31A38CDEC /* Debug */,
+				FCE442DE53FC116E58D380FE04BDBEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AA68C52F505143CE1D8E42161E5689 /* Build configuration list for PBXNativeTarget "Pods-Food Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E058F083B5BA68BB036EE27FCFA74607 /* Debug */,
+				0B762DCF2F0E3BC23A737160EEF9E043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25B77BBC4E120CB6EFBCFA067143241 /* Build configuration list for PBXNativeTarget "EMAccordionTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE813DBD7CA5DF070B9BA15B68379D0D /* Debug */,
+				ADC3761844C0B377927A89E764E4CFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

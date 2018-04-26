@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Optima.ttc">
+            <string>Optima-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="Food_Tracker" customModuleProvider="target">
+            <connections>
+                <outlet property="clearAllOutlet" destination="bI7-HQ-qL3" id="6Kv-81-vOu"/>
+                <outlet property="textCollectionView1" destination="mkI-ov-98n" id="6Aa-DH-EQS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="295"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPS-6R-c33">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="295"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIg-pc-3He" userLabel="topView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter by types of cuisine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVg-fK-roS">
+                                    <rect key="frame" x="8" y="11" width="181" height="26"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="26" id="HOI-ee-toQ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKT-Ll-BXJ" customClass="DesignableView" customModule="Food_Tracker" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="54" width="375" height="1"/>
+                                    <color key="backgroundColor" red="0.72156862745098038" green="0.72156862745098038" blue="0.72156862745098038" alpha="0.40999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="uVR-Og-3lr"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                            <size key="value" width="-1" height="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                            <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                            <real key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bI7-HQ-qL3" customClass="DesignableButton" customModule="Food_Tracker" customModuleProvider="target">
+                                    <rect key="frame" x="279" y="11" width="81" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="B3i-Af-eQ3"/>
+                                    </constraints>
+                                    <state key="normal" title="   Clear All   ">
+                                        <color key="titleColor" red="0.81176470588235294" green="0.36078431372549019" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.81176470588235294" green="0.36078431372549019" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="ClearFilter:" destination="-1" eventType="touchUpInside" id="OHg-gA-kwq"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="RVg-fK-roS" firstAttribute="centerY" secondItem="bI7-HQ-qL3" secondAttribute="centerY" constant="-2" id="KP7-X4-j19"/>
+                                <constraint firstItem="RVg-fK-roS" firstAttribute="leading" secondItem="KIg-pc-3He" secondAttribute="leading" constant="8" id="MIJ-ix-xGi"/>
+                                <constraint firstItem="lKT-Ll-BXJ" firstAttribute="leading" secondItem="KIg-pc-3He" secondAttribute="leading" id="V5y-E7-zrs"/>
+                                <constraint firstItem="RVg-fK-roS" firstAttribute="centerY" secondItem="KIg-pc-3He" secondAttribute="centerY" constant="-5.5" id="ZAe-F8-Xri"/>
+                                <constraint firstAttribute="trailing" secondItem="bI7-HQ-qL3" secondAttribute="trailing" constant="15" id="r32-Xx-GX0"/>
+                                <constraint firstItem="bI7-HQ-qL3" firstAttribute="top" secondItem="KIg-pc-3He" secondAttribute="top" constant="11" id="sLo-Fa-j0s"/>
+                                <constraint firstAttribute="trailing" secondItem="lKT-Ll-BXJ" secondAttribute="trailing" id="uoV-8E-j7L"/>
+                                <constraint firstItem="lKT-Ll-BXJ" firstAttribute="top" secondItem="bI7-HQ-qL3" secondAttribute="bottom" constant="13" id="wPA-9h-mV4"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qf-7X-3QS" customClass="DesignableButton" customModule="Food_Tracker" customModuleProvider="target">
+                            <rect key="frame" x="12" y="247" width="351" height="40"/>
+                            <color key="backgroundColor" red="0.81176470588235294" green="0.36078431370000003" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="0W6-oj-KbA"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                            <state key="normal" title="APPLY FILTER">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkI-ov-98n" customClass="TTGTextTagCollectionView">
+                            <rect key="frame" x="8" y="60" width="359" height="179"/>
+                            <color key="backgroundColor" red="0.72549019607843135" green="0.72156862745098038" blue="0.72549019607843135" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.72340381145477295" green="0.72663189305199516" blue="0.72340381145477295" alpha="0.11384310787671233" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="KIg-pc-3He" firstAttribute="top" secondItem="CPS-6R-c33" secondAttribute="top" id="9xe-Mf-0r2"/>
+                        <constraint firstItem="mkI-ov-98n" firstAttribute="top" secondItem="KIg-pc-3He" secondAttribute="bottom" constant="1" id="B34-PP-4XK"/>
+                        <constraint firstItem="0Qf-7X-3QS" firstAttribute="top" secondItem="mkI-ov-98n" secondAttribute="bottom" constant="8" id="MXB-gD-4hk"/>
+                        <constraint firstAttribute="trailing" secondItem="0Qf-7X-3QS" secondAttribute="trailing" constant="12" id="Nam-Cd-sGz"/>
+                        <constraint firstItem="mkI-ov-98n" firstAttribute="leading" secondItem="CPS-6R-c33" secondAttribute="leading" constant="8" id="UhL-23-Ose"/>
+                        <constraint firstAttribute="trailing" secondItem="mkI-ov-98n" secondAttribute="trailing" constant="8" id="dm1-Qb-QyH"/>
+                        <constraint firstItem="KIg-pc-3He" firstAttribute="leading" secondItem="CPS-6R-c33" secondAttribute="leading" id="ojo-WV-cCm"/>
+                        <constraint firstAttribute="trailing" secondItem="KIg-pc-3He" secondAttribute="trailing" id="ord-9P-P5a"/>
+                        <constraint firstItem="0Qf-7X-3QS" firstAttribute="leading" secondItem="CPS-6R-c33" secondAttribute="leading" constant="12" id="vgX-gb-nDe"/>
+                        <constraint firstAttribute="bottom" secondItem="0Qf-7X-3QS" secondAttribute="bottom" constant="8" id="w6a-ba-M1j"/>
+                        <constraint firstItem="KIg-pc-3He" firstAttribute="top" secondItem="CPS-6R-c33" secondAttribute="top" id="wwt-Ff-SNS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="CPS-6R-c33" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="1SR-Rr-s7b"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="CPS-6R-c33" secondAttribute="bottom" id="2Zj-jn-MRa"/>
+                <constraint firstItem="CPS-6R-c33" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="EVx-SK-nz8"/>
+                <constraint firstItem="CPS-6R-c33" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ZmP-c8-jdL"/>
+                <constraint firstItem="CPS-6R-c33" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eCB-BH-hMI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="31.5" y="-135.5"/>
+        </view>
+    </objects>
+</document>

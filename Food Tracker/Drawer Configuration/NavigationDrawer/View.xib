@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Optima.ttc">
+            <string>Optima-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderFooterView" customModule="Food_Tracker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="272" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JO-m1-cBz">
+                    <rect key="frame" x="20" y="20" width="252" height="41"/>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.57124892979452058" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2DF-Kk-MNq">
+                    <rect key="frame" x="20" y="69" width="252" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="32q-fw-440"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2DF-Kk-MNq" secondAttribute="trailing" id="0XE-Kp-IAW"/>
+                <constraint firstItem="7JO-m1-cBz" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="AXp-5U-sKs"/>
+                <constraint firstItem="2DF-Kk-MNq" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="1" id="Knq-LF-AqB"/>
+                <constraint firstItem="2DF-Kk-MNq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="QW0-j9-wo4"/>
+                <constraint firstItem="7JO-m1-cBz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="dkF-cI-GOu"/>
+                <constraint firstItem="7JO-m1-cBz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="fBA-U6-qBK"/>
+                <constraint firstItem="2DF-Kk-MNq" firstAttribute="top" secondItem="7JO-m1-cBz" secondAttribute="bottom" constant="8" id="hGw-tE-cS8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="hearderLbl" destination="7JO-m1-cBz" id="TzZ-wv-CzM"/>
+            </connections>
+            <point key="canvasLocation" x="-18" y="286"/>
+        </view>
+    </objects>
+</document>
